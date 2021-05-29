@@ -1,0 +1,156 @@
+/* global css */
+*{
+    font-family: 'Dosis', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    transition: scroll-behavior 5s;
+}
+h5{
+    text-align: center;
+    font-weight: normal
+}
+
+/* header css */
+header{
+    background-color: #ffffff;    
+}
+header a{
+    color: #000000;
+}
+.navbar {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.nav-link.active {
+    font-weight: 600;
+}
+.full-image{
+    position: relative;
+}
+.header-text {
+    position: absolute;
+    top: 22%;
+    left: 11%;
+    color: #ffffff;
+}
+.header-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header-text h2{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.header-text p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.navbar{
+    padding: .5rem 3rem;
+    
+}
+
+/* First container */
+.container-one h3,.container-three h3,.container-five h3{
+    text-align: center;
+    padding-top: 4rem;
+}
+.hr{
+    border-color: black;
+    width: 4%;
+    border-width: 2px;
+}
+.row_one,.row-three,.container-four .row,.myForm{
+    margin-top: 50px;
+}
+.myForm{
+    margin-bottom: 50px;
+}
+.row_one .card,.container-three .card{
+    border: none;
+}
+
+/* second container */
+.row-two .card {
+    padding: 4rem;
+    text-align: center;
+}
+.row.row-two [class*="col-"] {
+    padding: 0;
+}
+.row-two .bc-clr-gr-1,.row-two .bc-clr-gr-2  {
+    background-color: #cccccc;
+}
+.row-two .bc-clr-wh-1, .row-two .bc-clr-wh-2  {
+background-color: #efefef;
+}
+.row-two .bc-clr-gr-1,.row-two .bc-clr-gr-2,.row-two .bc-clr-wh-1, .row-two .bc-clr-wh-2{
+    border: none;
+    border-radius: unset;
+}
+.row-two .card-title {
+    line-height: 4rem;
+}
+.row-two .card p {
+    font-weight: 700;
+    font-size: 1.8rem;
+}   
+.row-two{
+    margin-top: 100px;
+}
+
+/* container three */
+.row-three .card p{
+    margin-bottom: 0;
+}
+.extend-text{
+    display: none;
+}
+.extend-text-bk .extend-text
+{
+    display: block;
+}
+
+/* container four */
+
+.container-four{
+    background-color: #efefef;
+}
+.pht-img {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.abt-text {
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+.img-sec{
+    padding-right: 0;
+}
+.icon {
+    font-size: 2rem;
+}
+.fab:hover {
+    color: red;
+    cursor: pointer;
+}
+/* site footer */
+footer.site-footer {
+    padding: 2rem;
+    background-color: black;
+    color: #fff;
+}
+.site-footer-content p {
+    margin-left: 8%;
+}

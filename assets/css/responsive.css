@@ -1,0 +1,41 @@
+@media(max-width:992px){
+    .img-sec{
+        padding-right: 15px;
+    }
+    .abt-text {
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+    .site-footer-content p{
+        text-align: center;
+    }
+     .row-two .bc-clr-gr-2{
+        background-color: #efefef;
+    }
+    .row-two .bc-clr-wh-2{
+        background-color: #cccccc;
+    }
+}
+@media(max-width:580px)
+{
+    .row-two .bc-clr-gr-2{
+        background-color: #cccccc;
+    }
+    .row-two .bc-clr-wh-2{
+        background-color: #efefef;
+    }
+}
+@media(max-width:480px){
+    .header-text h1 {
+        font-size: 2.5rem;
+        line-height: 1.5rem;
+    }
+    .header-text p{
+        line-height: 1rem;
+        letter-spacing: 0;
+    }
+    .header-text h2{
+        font-size: 2rem;
+    }
+    
+}
